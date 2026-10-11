@@ -1,0 +1,25 @@
+Package: MDEqp
+Type: Package
+Title: Estimating the Sample Mean and Standard Deviation from Reported Quantiles
+Version: 0.1.0
+Authors@R: person(given = "You",
+    family = "Wan",
+    email = "luvuu1903@gmail.com",
+    role = c("aut", "cre"))
+Description: Provides four methods for estimating the sample mean and standard 
+    deviation from reported quantiles and sample size: minimum distance estimation 
+    on the quantile and probability scales, weighted quantile estimation, and 
+    weighted probability estimation. The methods accommodate three combinations 
+    of the minimum, quartiles, median, and maximum, with optional zero-based 
+    range normalization for bounded outcomes. The quantile-scale methods are 
+    described by Tang et al. (2026) <doi:10.1017/rsm.2026.10090>. The 
+    probability-scale methods are described by Tang et al. (manuscript under review).
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Imports:
+    metaBLUE
+URL: https://github.com/luvuu1/MDEqp
+BugReports: https://github.com/luvuu1/MDEqp/issues
